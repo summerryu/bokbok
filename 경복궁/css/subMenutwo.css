@@ -1,0 +1,269 @@
+#container {
+  margin-top: 50px;
+}
+#container .center {
+  display: flex;
+  justify-content: center;
+}
+#container .center .submain {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+#container .center .submain .sub_left {
+  margin-right: 50px;
+  width: 500px;
+}
+#container .center .submain .sub_left h2 {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 700;
+  color: #d88e1f;
+  border-bottom: 2px solid rgb(99, 99, 99);
+  background: url(../img/intro_bg_01.png);
+}
+#container .center .submain .sub_left p {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #d6a65d;
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+}
+#container .center .submain .sub_left .menu li {
+  margin-top: 10px;
+  height: 30px;
+  border-bottom: 1px solid rgb(235, 235, 235);
+}
+#container .center .submain .sub_left .menu li a {
+  color: #000;
+  font-size: 14px;
+}
+#container .center .submain .sub_left .menu li:hover {
+  font-weight: bold;
+}
+#container .center .submain .sub_left .menu li.on a {
+  font-weight: 600;
+  color: #d88e1f;
+}
+#container .center .submain .sub_main {
+  display: none;
+  width: 1500px;
+  background: #fffdfa;
+}
+#container .center .submain .sub_main .maintext {
+  padding: 20px;
+}
+#container .center .submain .sub_main .maintext h1 {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 700;
+  font-size: 30px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+#container .center .submain .sub_main .maintext h1 a {
+  font-size: 12px;
+  color: #d88e1f;
+  text-align: center;
+}
+#container .center .submain .sub_main .maintext h1::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background: #d88e1f;
+}
+#container .center .submain .sub_main .textlist {
+  background: #fffdfa;
+  padding: 10px;
+}
+#container .center .submain .sub_main .textlist > li {
+  margin: 35px 30px;
+  line-height: 25px;
+  list-style-image: url("data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' height='20' width='20' viewBox='0 0 24 24' fill='none' stroke='orange' stroke-width='2'><polyline points='20 6 9 17 4 12'></polyline></svg>");
+}
+#container .center .submain .sub_main .textlist > li h4 {
+  font-size: 16px;
+}
+#container .center .submain .sub_main .textlist > li p {
+  font-size: 14px;
+}
+#container .center .submain .sub_main .textlist > li .subText_menu {
+  margin-top: 5px;
+  font-size: 14px;
+}
+#container .center .submain .sub_main .textlist > li .subText_menu > li {
+  list-style: decimal;
+}
+#container .center .submain .sub_main .textlist > li .subText_menu .subText_sub > li, #container .center .submain .sub_main .textlist > li .subText_menu .subText_menus > li {
+  font-size: 13px;
+  margin: 0 30px;
+  list-style-type: hangul;
+}
+#container .center .submain .sub_main .textlist > li .subText_menu2 li {
+  font-size: 14px;
+  list-style-type: " - ";
+}
+#container .center .submain .sub_main .textlist > li .tb {
+  border-collapse: collapse;
+  display: flex;
+  text-align: center;
+  padding: 20px;
+}
+#container .center .submain .sub_main .textlist > li .tb th {
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 40px;
+  border: 1px solid rgb(172, 172, 172);
+  background: rgb(243, 243, 243);
+}
+#container .center .submain .sub_main .textlist > li .tb td {
+  background: #fff;
+  font-size: 14px;
+  padding: 10px 20px;
+  border: 1px solid rgb(172, 172, 172);
+}
+#container .center .submain .sub_main .textlist .listBtn {
+  display: flex;
+  justify-content: center;
+}
+#container .center .submain .sub_main .textlist .listBtn div {
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-left: 20px;
+  padding: 15px;
+  text-align: center;
+  width: 200px;
+  border: 1px solid rgb(206, 201, 201);
+}
+#container .center .submain .sub_main .textlist .listBtn div a {
+  color: #000;
+  font-weight: bold;
+}
+#container .center .submain .sub_main .textlist .listBtn div:nth-child(2) {
+  width: 120px;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: #ff9f0e;
+}
+#container .center .submain .sub_main .textlist .listBtn div:nth-child(2) a {
+  color: #fff;
+}
+#container .center .submain .sub_main.on {
+  display: block;
+}
+#container .center .submain .sub_main_two {
+  width: 1500px;
+  display: none;
+  background: #fffdfa;
+}
+#container .center .submain .sub_main_two .maintext {
+  padding: 20px;
+}
+#container .center .submain .sub_main_two .maintext h1 {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 700;
+  font-size: 30px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+#container .center .submain .sub_main_two .maintext h1 a {
+  font-size: 12px;
+  color: #d88e1f;
+  text-align: center;
+}
+#container .center .submain .sub_main_two .maintext h1::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background: #d88e1f;
+}
+#container .center .submain .sub_main_two .textlist_two {
+  background: #fffdfa;
+  padding: 10px;
+  line-height: 25px;
+}
+#container .center .submain .sub_main_two .textlist_two h4 {
+  font-size: 16px;
+}
+#container .center .submain .sub_main_two .textlist_two p {
+  font-size: 14px;
+}
+#container .center .submain .sub_main_two .textlist_two > li {
+  margin: 35px 30px;
+  list-style-image: url("data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' height='20' width='20' viewBox='0 0 24 24' fill='none' stroke='orange' stroke-width='2'><polyline points='20 6 9 17 4 12'></polyline></svg>");
+}
+#container .center .submain .sub_main_two .textlist_two > li .subText_menu {
+  margin-top: 5px;
+  margin-left: 18px;
+  font-size: 14px;
+}
+#container .center .submain .sub_main_two .textlist_two > li .subText_menu > li {
+  list-style: decimal;
+}
+#container .center .submain .sub_main_two .textlist_two > li .subText_menu .subText_sub > li, #container .center .submain .sub_main_two .textlist_two > li .subText_menu .subText_menus > li {
+  font-size: 13px;
+  margin: 0 35px;
+  list-style-type: hangul;
+}
+#container .center .submain .sub_main_two .textlist_two > li .subText_menu2 li {
+  font-size: 14px;
+  list-style-type: " - ";
+}
+#container .center .submain .sub_main_two .textlist_two > li .tb2 {
+  border-collapse: collapse;
+  display: flex;
+  text-align: center;
+}
+#container .center .submain .sub_main_two .textlist_two > li .tb2 th {
+  font-size: 14px;
+  font-weight: normal;
+  padding: 5px;
+  border: 1px solid rgb(172, 172, 172);
+  background: rgb(235, 235, 235);
+}
+#container .center .submain .sub_main_two .textlist_two > li .tb2 td {
+  background: #fff;
+  font-size: 14px;
+  padding: 10px 10px;
+  border: 1px solid rgb(172, 172, 172);
+}
+#container .center .submain .sub_main_two .textlist_two .listBtn {
+  display: flex;
+  justify-content: center;
+}
+#container .center .submain .sub_main_two .textlist_two .listBtn div {
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-left: 20px;
+  padding: 15px;
+  text-align: center;
+  width: 200px;
+  border: 1px solid rgb(206, 201, 201);
+}
+#container .center .submain .sub_main_two .textlist_two .listBtn div a {
+  color: #000;
+  font-weight: bold;
+}
+#container .center .submain .sub_main_two .textlist_two .listBtn div:nth-child(2) {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: #ff9f0e;
+}
+#container .center .submain .sub_main_two .textlist_two .listBtn div:nth-child(2) a {
+  color: #fff;
+}
+#container .center .submain .sub_main_two.on {
+  display: block;
+}

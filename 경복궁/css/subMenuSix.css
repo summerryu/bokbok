@@ -1,0 +1,226 @@
+#container {
+  margin-top: 50px;
+}
+#container .center {
+  display: flex;
+  justify-content: center;
+}
+#container .center .submain {
+  width: 1300px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+#container .center .submain .sub_left {
+  margin-right: 50px;
+  width: 250px;
+}
+#container .center .submain .sub_left h2 {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 700;
+  color: #d88e1f;
+  border-bottom: 2px solid rgb(99, 99, 99);
+  background: url(../img/intro_bg_01.png);
+}
+#container .center .submain .sub_left p {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #d6a65d;
+  font-weight: 300;
+  font-size: 14px;
+}
+#container .center .submain .sub_left p a {
+  color: #fff;
+}
+#container .center .submain .sub_left .left_menu li {
+  height: 30px;
+  margin: 10px;
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+#container .center .submain .sub_left .left_menu li a {
+  color: #000;
+  font-size: 14px;
+}
+#container .center .submain .sub_left .left_menu li:hover {
+  font-weight: bold;
+}
+#container .center .submain .sub_left .left_menu li:nth-child(4) {
+  border: none;
+}
+#container .center .submain .sub_left .left_menu li.on a {
+  font-weight: 600;
+  color: #d88e1f;
+}
+#container .center .submain .main {
+  background: #fffdfa;
+  width: 100%;
+}
+#container .center .submain .main .main_title {
+  font-size: 30px;
+  position: relative;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Nanum Myeongjo", serif;
+}
+#container .center .submain .main .main_title h1 {
+  font-weight: 700;
+}
+#container .center .submain .main .main_title a {
+  font-size: 12px;
+  color: #d88e1f;
+  text-align: center;
+}
+#container .center .submain .main .main_title::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background: #d88e1f;
+}
+#container .center .submain .main_text {
+  display: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 900px;
+  color: rgb(105, 105, 105);
+}
+#container .center .submain .main_text img {
+  width: 100%;
+}
+#container .center .submain .main_text h1 {
+  font-size: 25px;
+  width: 100%;
+  text-align: center;
+  margin: 30px;
+  line-height: 30px;
+  color: #000;
+}
+#container .center .submain .main_text h1 span {
+  font-weight: 700;
+  color: #d88e1f;
+}
+#container .center .submain .main_text h4 {
+  width: 100%;
+  font-size: 15px;
+}
+#container .center .submain .main_text p {
+  font-size: 15px;
+  width: 100%;
+  margin: 15px 0;
+  line-height: 20px;
+}
+#container .center .submain .main_text h2 {
+  position: relative;
+  right: -400px;
+}
+#container .center .submain .main_text.on {
+  display: flex;
+}
+#container .center .submain .sub_text_one {
+  width: 1000px;
+  display: none;
+  justify-content: center;
+}
+#container .center .submain .sub_text_one .sub_left_img {
+  width: 400px;
+  padding: 20px;
+}
+#container .center .submain .sub_text_one .sub_left_img img {
+  width: 100%;
+}
+#container .center .submain .sub_text_one .sub_right_table {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fff8f2;
+}
+#container .center .submain .sub_text_one .sub_right_table table {
+  width: 600px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-top: 2px solid rgb(134, 103, 66);
+  border-bottom: 2px solid rgb(134, 103, 66);
+}
+#container .center .submain .sub_text_one .sub_right_table table .line {
+  font-size: 15px;
+  border-right: #BCAB97 1px solid;
+  border-bottom: #BCAB97 1px solid;
+  height: 35px;
+  width: 150px;
+  background-color: #f0e0cf;
+  padding: 0 10px;
+}
+#container .center .submain .sub_text_one .sub_right_table table .line_under {
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px;
+  border-bottom: #BCAB97 1px solid;
+  color: #525252;
+}
+#container .center .submain .sub_text_one.on {
+  display: flex;
+}
+#container .center .submain .sub_text_two {
+  display: none;
+  width: 900px;
+}
+#container .center .submain .sub_text_two table {
+  width: 900px;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+#container .center .submain .sub_text_two table .top_table {
+  border-bottom: 1px solid #acacac;
+  border-top: 2px solid #68563b;
+}
+#container .center .submain .sub_text_two table tr th {
+  height: 30px;
+  padding: 10px 0;
+}
+#container .center .submain .sub_text_two table tr td {
+  color: #3f3f3f;
+  font-size: 11pt;
+}
+#container .center .submain .sub_text_two table tr .table_number {
+  width: 5%;
+}
+#container .center .submain .sub_text_two table tr .table_title {
+  width: 70%;
+}
+#container .center .submain .sub_text_two table tr .table_user {
+  width: 10%;
+}
+#container .center .submain .sub_text_two table tr .table_days {
+  width: 15%;
+}
+#container .center .submain .sub_text_two table tr .sub_number {
+  width: 5%;
+}
+#container .center .submain .sub_text_two table tr .boder_line {
+  height: 35px;
+  font-size: 11pt;
+  line-height: 20px;
+  border-bottom: 1px solid #e5e5e5;
+  color: #3f3f3f;
+  width: 70%;
+}
+#container .center .submain .sub_text_two table tr .sub_user {
+  text-align: center;
+}
+#container .center .submain .sub_text_two table tr .sub_days {
+  width: 15%;
+  text-align: center;
+}
+#container .center .submain .sub_text_two.on {
+  display: flex;
+}

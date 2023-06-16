@@ -1,0 +1,285 @@
+
+
+  #container{
+    margin-top: 50px;
+    .center{
+        display: flex;
+        justify-content: center;
+        .submain{
+            width:1200px;
+            display: flex;
+            justify-content: center;
+            .sub_left{
+                margin-right: 50px;
+                width: 500px;
+                h2{
+                    height: 70px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 25px;
+                    font-weight: 700;
+                    color:#d88e1f;
+                    border-bottom: 2px solid rgb(99, 99, 99);
+                    background:url(../img/intro_bg_01.png);
+                }
+                p{
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    background: #d6a65d;
+                    color:#fff;
+                    font-weight: 300;
+                    font-size: 14px;
+                }
+                .menu{
+                    li{
+                        margin-top: 10px;
+                        height: 30px;
+                        border-bottom: 1px solid rgb(235, 235, 235);
+                        a{
+                            color:#000;
+                            font-size: 14px;
+                        }
+                        &:hover{
+                            font-weight: bold;
+                        }
+                    }
+                    li.on{
+                        a{
+                            font-weight: 600;
+                            color:#d88e1f;
+                        }
+                    }
+                }
+            }
+            .sub_main{
+                display: none;
+                width:1500px;
+                background: #fffdfa;
+                .maintext{
+                    padding:20px;
+                    h1{
+                        font-family: 'Nanum Myeongjo', serif;
+                        font-weight: 700;
+                        font-size: 30px;
+                        position: relative;
+                        display: flex;
+                        justify-content: space-between;
+                        a{
+                            font-size: 12px;
+                            color:#d88e1f;
+                            text-align: center;
+                        }
+                        &::after{
+                            content: "";
+                            width:100%;
+                            height: 2px;
+                            display: block;
+                            position: absolute;
+                            left: 0;
+                            bottom:-10px;
+                            background:#d88e1f;
+                        }
+                    }
+                }
+                .textlist{
+                    background: #fffdfa;
+                    padding:10px;
+                    > li{
+                        margin:35px 30px;
+                        line-height: 25px;
+                        list-style-image: url("data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' height='20' width='20' viewBox='0 0 24 24' fill='none' stroke='orange' stroke-width='2'><polyline points='20 6 9 17 4 12'></polyline></svg>");
+                        h4{
+                            font-size: 16px;
+                        }
+                        p{
+                            font-size: 14px;
+                        }
+                        .subText_menu{
+                            margin-top: 5px;
+                            font-size: 14px;
+                            >li{
+                                list-style:decimal;
+                            }
+                            .subText_sub,.subText_menus{
+                                >li{
+                                    font-size: 13px;
+                                    margin:0 30px;
+                                    list-style-type: hangul;
+                                }
+                            }
+                        }
+                        .subText_menu2{
+                            li{
+                                font-size: 14px;
+                                list-style-type:" - ";
+                            }
+                        }
+                       .tb{
+                            border-collapse: collapse;
+                            display: flex;
+                            text-align: center;
+                            padding:20px;
+                            th{
+                                font-size: 14px;
+                                font-weight: normal;
+                                padding:10px 40px;
+                                border: 1px solid rgb(172, 172, 172);
+                                background: rgb(243, 243, 243);
+                            }
+                            td{
+                                background: #fff;
+                                font-size: 14px;
+                                padding:10px 20px;
+                                border: 1px solid rgb(172, 172, 172);
+                            }
+                            
+                       }
+                    }
+                    .listBtn{
+                        display: flex;
+                        justify-content: center;
+                        div{
+                            border-radius: 5px;
+                            margin-top: 40px;
+                            margin-left: 20px;
+                            padding:15px;
+                            text-align: center;
+                            width:200px;
+                            border: 1px solid rgb(206, 201, 201);
+                            a{
+                                color:#000;
+                                font-weight: bold;
+                            }
+                            &:nth-child(2){
+                                width:120px;
+                                border: 1px solid rgb(255, 255, 255);
+                                background-color: #ff9f0e;
+                                a{
+                                    color:#fff;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .sub_main.on{
+                display: block;
+            }
+            .sub_main_two{
+                width:1500px;
+                display: none;
+                background: #fffdfa;
+                .maintext{
+                    padding:20px;
+                    h1{
+                        font-family: 'Nanum Myeongjo', serif;
+                        font-weight: 700;
+                        font-size: 30px;
+                        position: relative;
+                        display: flex;
+                        justify-content: space-between;
+                        a{
+                            font-size: 12px;
+                            color:#d88e1f;
+                            text-align: center;
+                        }
+                        &::after{
+                            content: "";
+                            width:100%;
+                            height: 2px;
+                            display: block;
+                            position: absolute;
+                            left: 0;
+                            bottom:-10px;
+                            background:#d88e1f;
+                        }
+                    }
+                }
+                .textlist_two{
+                    background: #fffdfa;
+                    padding:10px;
+                    line-height: 25px;
+                    h4{
+                        font-size: 16px;
+                    }
+                    p{
+                        font-size: 14px;
+                    }
+                    >li{
+                        margin:35px 30px;
+                        list-style-image: url("data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' height='20' width='20' viewBox='0 0 24 24' fill='none' stroke='orange' stroke-width='2'><polyline points='20 6 9 17 4 12'></polyline></svg>");
+                        .subText_menu{
+                            margin-top: 5px;
+                            margin-left: 18px;
+                            font-size: 14px;
+                            >li{
+                                list-style:decimal;
+                            }
+                            .subText_sub,.subText_menus{
+                                > li{
+                                    font-size: 13px;
+                                    margin:0 35px;
+                                    list-style-type: hangul;
+                                }
+                            }
+                        }
+                        .subText_menu2{
+                            li{
+                                font-size: 14px;
+                                list-style-type:" - ";
+                            }
+                        }
+                        .tb2{
+                            border-collapse: collapse;
+                            display: flex;
+                            text-align: center;
+                            th{
+                                font-size: 14px;
+                                font-weight: normal;
+                                padding:5px;
+                                border: 1px solid rgb(172, 172, 172);
+                                background: rgb(235, 235, 235);
+                            }
+                            td{
+                                background: #fff;
+                                font-size: 14px;
+                                padding:10px 10px;
+                                border: 1px solid rgb(172, 172, 172);
+                            }
+                            
+                       }
+                    }
+                    .listBtn{
+                        display: flex;
+                        justify-content: center;
+                        div{
+                            border-radius: 5px;
+                            margin-top: 40px;
+                            margin-left: 20px;
+                            padding:15px;
+                            text-align: center;
+                            width:200px;
+                            border: 1px solid rgb(206, 201, 201);
+                            a{
+                                color:#000;
+                                font-weight: bold;
+                            }
+                            &:nth-child(2){
+                                border: 1px solid rgb(255, 255, 255);
+                                background-color: #ff9f0e;
+                                a{
+                                    color:#fff;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .sub_main_two.on{
+                display: block;
+            }
+        }
+    }
+}

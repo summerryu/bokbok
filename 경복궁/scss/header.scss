@@ -1,0 +1,93 @@
+#header{
+    transition: all 0.7s;
+    width:100%;
+    z-index: 99;
+    background-color:transparent;
+    border-bottom: 1px solid #e4e4e4;
+    background: #fffbfb;
+    .center{
+        display: flex;
+        justify-content: center;
+        .list{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            .topMenu{
+                background-color:transparent;
+                border-bottom:1px solid rgba(255,255,255,0.5);
+                padding:15px;
+                width: 100%;
+                height: 50px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .top_left{
+                    display: flex;
+                    width: 1000px;
+                    align-items: center;
+                    margin-left: 30px;
+                    li{
+                        margin-left: 20px;
+                        a{
+                            color:#000;
+                            font-size: 13px;
+                            font-weight: 500;
+                        }
+                    }
+                }
+                .top_right{
+                    width:200px;
+                    display: flex;
+                    li{
+                        margin-left: 20px;
+                        a{
+                            color:#000;
+                        }
+                    }
+                }
+            }
+            .mainMenu{
+                padding:20px;
+                width:700px;
+                .gnb{
+                    display: flex;
+                    justify-content: space-between;
+                    li{
+                        position: relative;
+                        a{
+                            color:#000;
+                            font-weight: bold;
+                            font-size: 20px;
+                            position: relative;
+                            z-index: 16;
+                        }
+                        &::after{
+                            transition: all 0.5s;
+                            content: "";
+                            width:0%;
+                            position: absolute;
+                            height: 2px;
+                            bottom: -5px;
+                            left: 0;
+                            display: block;
+                            background:#d88e1f;
+                        }
+                        &:hover{
+                            &::after{
+                                transition: all 0.5s;
+                                content: "";
+                                width:100%;
+                                position: absolute;
+                                height: 2px;
+                                bottom: -5px;
+                                left: 0;
+                                display: block;
+                                background:#d88e1f;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+  }
